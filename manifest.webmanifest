@@ -1,0 +1,25 @@
+{
+  "id": "./",
+  "name": "Moj Budžet",
+  "short_name": "Budžet",
+  "description": "Praćenje ličnih troškova po mesecima — radi offline, podaci ostaju na telefonu.",
+  "lang": "sr-Latn",
+  "dir": "ltr",
+  "start_url": "./#pregled",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f2f4f0",
+  "theme_color": "#164f41",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Pregled meseca", "url": "./#pregled", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Istorija", "url": "./#istorija", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
